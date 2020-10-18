@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Antic Slab", serif;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  color: #ffffff;
+  margin-top: 2.4rem;
+  font-size: 3.6rem;
+  /* font-family: "Architects Daughter", cursive; */
+  font-family: "Libre Baskerville", serif;
+}
+
+h3 {
+  color: #bc742d;
+  font-size: 2.4rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  color: #ffffff;
+  margin-top: 1.6rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  font-size: 2.4rem;
+  color: #bc742d;
+  padding: 2rem;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+.pipe {
+  font-size: 2.4rem;
+  color: #96a5b3;
+}
+
+p#description {
+  font-size: 2.4rem;
+  color: #96a5b3;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#skills {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+}
+
+#skills ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+#skills ul li {
+  text-align: center;
+  color: #96a5b3;
+  font-size: 2.4rem;
+}
+
+#blog {
+  text-align: center;
+}
+
+#blog a {
+  font-size: 2.4rem;
+  color: #96a5b3;
+  padding: 2rem;
+}
+
+#blog a:hover {
+  color: #ffffff;
+}
+
+footer p {
+  margin-top: 2.4rem;
+  color: #ffffff;
+  background-color: #bc742d;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  font-weight: bold;
+}
