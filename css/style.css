@@ -14,7 +14,6 @@
 }
 
 body {
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Antic Slab", serif;
   background-color: #1c1c1c;
 }
@@ -23,13 +22,12 @@ h1 {
   color: #ffffff;
   margin-top: 2.4rem;
   font-size: 3.6rem;
-  /* font-family: "Architects Daughter", cursive; */
   font-family: "Libre Baskerville", serif;
 }
 
 h3 {
   color: #bc742d;
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-top: 6rem;
   display: flex;
   justify-content: center;
@@ -38,7 +36,7 @@ h3 {
 h4 {
   color: #ffffff;
   margin-top: 1.6rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
   display: flex;
   justify-content: center;
   margin-bottom: 1.6rem;
@@ -53,22 +51,37 @@ em {
   color: #ffffff;
 }
 
+footer p {
+  margin-top: 3.6rem;
+  color: #ffffff;
+  background-color: #bc742d;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  font-weight: bold;
+}
+
+.about {
+  margin-top: 5rem;
+  text-align: center;
+}
+
 #photo {
   width: 250px;
   height: 250px;
   border-radius: 50%;
 }
 
-.about {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+p#description {
+  font-size: 2.4rem;
+  color: #96a5b3;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-top: 1.5rem;
 }
 
 .menu a {
@@ -86,20 +99,27 @@ em {
   color: #96a5b3;
 }
 
-p#description {
-  font-size: 2.4rem;
-  color: #96a5b3;
-  line-height: 1.5;
+.images-social-media {
+  position: relative;
+  margin: 0 auto;
   text-align: center;
 }
 
+.social-media {
+  width: 180px;
+  height: 60px;
+  margin-top: 5rem;
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
 #skills {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20rem;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  /* gap: 20rem; */
 }
 
 #skills ul {
@@ -127,14 +147,4 @@ p#description {
 
 #blog a:hover {
   color: #ffffff;
-}
-
-footer p {
-  margin-top: 2.4rem;
-  color: #ffffff;
-  background-color: #bc742d;
-  text-align: center;
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  font-weight: bold;
 }
